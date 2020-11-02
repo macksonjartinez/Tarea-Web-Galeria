@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(29, 29, 29);
+    font-family: fantasy;
+    font-optical-sizing: auto;
+    color: white;
+
+}
+.contenedorGaleria{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: rgb(48, 48, 48);
+    
+}
+
+.contenedorGaleria img{
+    width: 100%;
+     
+}
+
+.contenedorMiniaturas img{
+    width: 25%;
+    transition: .3s;
+}
+
+.contenedorMiniaturas img:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
